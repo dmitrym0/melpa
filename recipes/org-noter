@@ -1,1 +1,3 @@
-(org-noter :fetcher github :repo "weirdNox/org-noter")
+(org-noter :fetcher github :repo "dmitrym0/org-noter-plus" :branch "merge-with-peter"
+:files ("*.el" "modules"
+                  (:exclude "*-test-utils.el" "*-devel.el")))
